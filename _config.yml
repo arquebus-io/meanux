@@ -86,6 +86,6 @@ exclude_generator:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: github
-  repo: designeer/meanux.com
-  branch: [branch]
-  message: [message]
+  repo: https://github.com/designeer/meanux.git
+  branch: gh-pages
+  message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
